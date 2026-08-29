@@ -26,6 +26,7 @@ module tb;
     end
   end
 
+
   initial begin
     t_a = 4'b0000; t_b = 4'b0000; t_cin = 0;
     #20 t_a = 4'b0111; t_b = 4'b0001; t_cin = 0;   // worst-case ripple: carry crosses all 4 stages
